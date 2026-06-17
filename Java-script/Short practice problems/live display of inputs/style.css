@@ -1,0 +1,12 @@
+body{
+    margin: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.output{
+    padding: 0px 10px;
+    border:2px solid black;
+    width: 400px;
+    border-radius: 2%;
+    background-color: chocolate;
+}
