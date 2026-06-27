@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma@example.com",
+    "phone": "9876543210",
+    "membershipType": "Student",
+    "joinDate": "2025-01-15",
+    "booksIssued": [101, 105]
+  },
+  {
+    "id": 2,
+    "name": "Priya Patel",
+    "email": "priya.patel@example.com",
+    "phone": "9876543211",
+    "membershipType": "Faculty",
+    "joinDate": "2024-11-20",
+    "booksIssued": [102]
+  },
+  {
+    "id": 3,
+    "name": "Rahul Verma",
+    "email": "rahul.verma@example.com",
+    "phone": "9876543212",
+    "membershipType": "Student",
+    "joinDate": "2025-03-10",
+    "booksIssued": []
+  },
+  {
+    "id": 4,
+    "name": "Sneha Joshi",
+    "email": "sneha.joshi@example.com",
+    "phone": "9876543213",
+    "membershipType": "Student",
+    "joinDate": "2025-02-05",
+    "booksIssued": [103, 104]
+  },
+  {
+    "id": 5,
+    "name": "Vikram Singh",
+    "email": "vikram.singh@example.com",
+    "phone": "9876543214",
+    "membershipType": "Faculty",
+    "joinDate": "2024-09-12",
+    "booksIssued": [106]
+  }
+]

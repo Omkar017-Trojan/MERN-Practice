@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Wallah</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="Vendors/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+<script src="script.js"></script>
+    <header>
+    <nav class="navbar">
+        <h3 class="logo">Logo</h3>
+        <li class="nav">
+            <ul><a href="">Home</a></ul>
+            <ul><a href="">Services</a></ul>
+            <ul><a href="">About Us</a></ul>
+            <ul><a href="">Contact Us</a></ul>
+        </li>
+        <button class="username">Username</button>
+    </nav>
+    </header>
+
+    <section class="hero">
+        <div class="left">
+            <h1 class="tagline">Revitalize Your <br> Clother With Expert<br><span>Laundry Services!</span></h1>
+            <p class="info">From premium dry cleaning to swift wash and fold, we deliver care and
+                convenience. Schedule a pickup and rediscover the freshness of your
+                clothes today!</p>
+            <button class="servbtn"><img class="marklogo" src="assets/marklogo.png">Book a service today!</button>
+        </div>
+        <div class="image">
+            <img src="./assets/washingMachine.jpeg" alt="Image of laundry">
+        </div>
+    </section>
+
+    <section class="achivements">
+        <div class="stats">
+            <h2>Our Achievements</h2>
+            <p>
+                <p>15+<br>Laundry Services</p>
+                <p class="stat">240+<br>Happy Customers</p>
+                <p>2+ Yrs<br>Experience</p>
+            </p>
+        </div>
+    </section>
+
+    <section class="services">
+
+
+    <div class="left">
+
+        <h2 style="margin-top: 4%;line-height: 0%;">Our Services</h2>
+        <p class="note">
+           Click On The Add To Cart Button To Add The Services To Your Cart
+        </p><hr>
+        <div id="services"></div>
+
+    </div>
+
+
+
+    <div class="right">
+
+        <h2 style="text-align: center;margin: 0%;">Added Items</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Service</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+
+            <tbody id="cartItems"></tbody>
+
+        </table>
+
+        <div class="total">
+            Total Amount :
+            ₹<span id="total">0</span>
+        </div>
+        
+        <div class="booking">
+        <h2>Book Now</h2>
+
+        <input
+        type="text"
+        id="name"
+        placeholder="Full Name">
+
+        <input
+        type="email"
+        id="email"
+        placeholder="Email">
+
+        <input
+        type="text"
+        id="phone"
+        placeholder="Phone Number">
+
+        <button id="bookBtn">
+            Book Now
+        </button>
+        </div>
+    </div>
+
+</div>
+    </section>
+
+    <section class="offerings">
+        <div class="offer">
+            <icon><img class="premserv" src="./assets/washingMachine logo.png"></icon>
+            <h4>Premium Services</h4>
+            <p>Elevate your wardrobe with our meticulous dry cleaning, ensuring garments look and feel as good as new.</p>
+        </div>
+        <div class="offer">
+            <icon><img class="support" src="./assets/customercare  logo.png"></icon>
+            <h4>Quick Support</h4>
+            <p>We're committed to providing prompt solutions to ensure your Experience is smooth and worry-free<p>
+        </div>
+        <div class="offer">
+           <icon><img class="deli" src="./assets/handle care logo.png"></icon>
+            <h4>Hassle Free Delivery</h4>
+            <p>Enjoy seamless services with our convenient pickup and delivery options, tailored to your schedule.</p>
+        </div>
+        <div class="offer">
+            <icon><img class="price" src="./assets/pricelogo.png"></icon>
+            <h4>Affordable Prices</h4>
+            <p>Experience exceptional care without breaking the bank - our affordable prices make laundry day stress-free.</p>
+        </div>
+    </section>
+
+    <section class="newsletters">
+        <div class="newsletter">
+           <h3>Subscribe to our <br> newsletter.</h3> 
+        </div>
+        <div class="form">
+            <input class="name" type="text" placeholder="Full name">
+            <input class="email" type="email" placeholder="Email"><br>
+            <button>Subscribe</button>
+        </div>
+    </section>
+  
+    <footer>
+        <div class="footer">
+            <div>
+                <h1>Logo</h1>
+                <h4 class="aboutUs">About us</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <h3>Important Links</h3>
+                <ul>
+                    <li>About us</li>
+                    <li>Contact us</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of use</li>
+                    <li>Refund Policy</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <ul>
+                    <li>mail@site.com</li>
+                    <li>+91 9852147630</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Follow Us</h3>
+                <img class="flogo" src="./assets/logo-instagram.svg">
+                <img class="flogo" src="./assets/logo-facebook.svg">
+                <img class="flogo" src="./assets/logo-x.svg">
+                <img class="flogo" src="./assets/logo-youtube.svg">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
