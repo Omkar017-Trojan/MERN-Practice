@@ -1,0 +1,92 @@
+[
+  {
+    "id": 101,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Fiction",
+    "isbn": "9780061122415",
+    "publishedYear": 1988,
+    "available": true
+  },
+  {
+    "id": 102,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "genre": "Self Help",
+    "isbn": "9780735211292",
+    "publishedYear": 2018,
+    "available": true
+  },
+  {
+    "id": 103,
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert Kiyosaki",
+    "genre": "Finance",
+    "isbn": "9781612680194",
+    "publishedYear": 1997,
+    "available": false
+  },
+  {
+    "id": 104,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "genre": "Programming",
+    "isbn": "9780132350884",
+    "publishedYear": 2008,
+    "available": false
+  },
+  {
+    "id": 105,
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "genre": "Finance",
+    "isbn": "9780857197689",
+    "publishedYear": 2020,
+    "available": false
+  },
+  {
+    "id": 106,
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen",
+    "genre": "Computer Science",
+    "isbn": "9780262033848",
+    "publishedYear": 2009,
+    "available": false
+  },
+  {
+    "id": 107,
+    "title": "Think and Grow Rich",
+    "author": "Napoleon Hill",
+    "genre": "Self Help",
+    "isbn": "9781585424337",
+    "publishedYear": 1937,
+    "available": true
+  },
+  {
+    "id": 108,
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "genre": "Productivity",
+    "isbn": "9781455586691",
+    "publishedYear": 2016,
+    "available": true
+  },
+  {
+    "id": 109,
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "isbn": "9780747532699",
+    "publishedYear": 1997,
+    "available": true
+  },
+  {
+    "id": 110,
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt",
+    "genre": "Programming",
+    "isbn": "9780135957059",
+    "publishedYear": 1999,
+    "available": false
+  }
+]
